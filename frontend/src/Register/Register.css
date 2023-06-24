@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Montserrat:wght@500;600;700&display=swap");
+.main-container {
+  width: 100vw;
+  height: 100vh;
+}
+.left-container {
+  width: 588px;
+  height: 100vh;
+  background-color: black;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.top h2 {
+  font-size: 30px;
+  font-family: "Montserrat";
+  font-weight: 650;
+  font-size: 36px;
+  color: #000000;
+}
+.top .header-p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 7px;
+
+  color: #000000;
+}
+.heading {
+  color: white;
+  font-family: "Montserrat";
+  font-size: 72px;
+  font-weight: 600;
+  line-height: 88px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.right-container {
+  color: #000000;
+  left: 588px;
+  width: 852px;
+  height: 100vh;
+  position: absolute;
+  background: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Montserrat";
+  font-weight: 500;
+}
+.top-1 {
+  /* position: absolute; */
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.top-first {
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  cursor: pointer;
+
+  padding: 20px 25px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+}
+.top-first img {
+  padding-right: 7px;
+  width: 24px;
+  height: 16px;
+  opacity: 1;
+}
+.top-first p {
+  opacity: 0.5;
+}
+.top-second {
+  margin-left: 20px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  cursor: pointer;
+  display: flex;
+}
+.top-second p {
+  opacity: 0.5;
+}
+.top-second img {
+  width: 17px;
+  height: 17px;
+  padding-right: 7px;
+  opacity: 0.5;
+}
+.top-2 {
+  margin-top: 25px;
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  padding-top: 30px;
+}
+.top-2 p {
+  font-family: "Lato";
+  font-weight: 400px;
+}
+.top-2 input {
+  background: #f5f5f5;
+  width: 100%;
+  height: 37px;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border: 0px;
+}
+.top-2 input[type] {
+  padding-left: 20px;
+  font-size: 15px;
+  opacity: 0.8;
+  font-family: "Lato";
+}
+.top-2 button {
+  width: 100%;
+  height: 37px;
+  background: #000000;
+  border-radius: 10px;
+  color: #ffffff;
+  margin-top: 20px;
+  font-family: "Montserrat";
+  font-size: 15px;
+  font-weight: 600;
+  border: 0;
+  cursor: pointer;
+}
+.top-2 button:hover {
+  color: black;
+  background-color: #f5f5f5;
+}
+.top-2 h4 {
+  text-decoration: none;
+  color: #346bd5;
+  font-size: 15px;
+  font-weight: 100;
+  font-family: "Lato";
+  cursor: pointer;
+}
+.bottom {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 18px;
+  margin-top: 20px;
+}
+
+.bottom p {
+  color: #858585;
+}
+.bottom p span {
+  color: #346bd4;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  .left-container {
+    display: none;
+  }
+  .right-container {
+    left: 0;
+    width: 768px;
+  }
+}
+@media (max-width: 500px) {
+  .left-container {
+    display: none;
+  }
+  .right-container {
+    left: 0;
+    width: 500px;
+  }
+}

@@ -1,0 +1,85 @@
+.chart {
+  max-width: 99%;
+  height: 45vh;
+  background-color: white;
+  border-radius: 20px;
+  margin-top: 30px;
+  padding-top: 30px;
+  position: relative;
+}
+.chart-above {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 0;
+  position: absolute;
+  left: 35px;
+  top: 20px;
+  width: 90%;
+}
+.chart-above .activities h4 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+}
+.chart-above .activities p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  padding-top: 5px;
+  color: #858585;
+}
+.legend {
+  display: flex;
+  justify-content: center;
+}
+.legend .p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  padding: 10px;
+}
+.legend .dot1 {
+  display: flex;
+  align-items: center;
+}
+.legend .dot1 .dot-1 {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #e9a0a0;
+}
+.legend .dot2 {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+.legend .dot2 .dot-2 {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #9bdd7c;
+}
+@media only screen and (max-width: 800px) {
+  .chart-above .activities h4 {
+    font-size: 14px;
+
+    color: #000000;
+  }
+  .chart-above .activities p {
+    font-size: 10px;
+  }
+  .chart-above .dot1 .p {
+    font-size: 12px;
+  }
+  .chart-above .dot2 .p {
+    font-size: 12px;
+  }
+}
